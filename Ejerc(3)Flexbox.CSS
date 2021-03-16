@@ -1,0 +1,131 @@
+body {
+	background-image: url(imagen1.jpg);
+	background-repeat: repeat;
+	/*background-size: cover;*/
+}
+header {
+	width: 100%; 
+	height:120px;
+	/*border: 1px solid black;*/
+	display: flex; /*CUANDO LO CONVERTIS EN UN DISPLAY-FLEX SIGNIFICA QUE LOS VINCULOS QUE ESTAN DENTRO DEL HEADER SE VAN A HACER HIJOS*/
+	flex-direction: row;
+	/*align-items: center; */
+	background-color: rgb(0,0,0,0.6); /*EL RGB TIENE SOLO 3 VALORES Y CUANDO PONEMOS UN 4º VALOR ES LO QUE PRODUCE ESA TRANSPARENCIA*/
+	/*color: black;*/
+	/*opacity: 0.8;*/ /*ME GENERA LA TRANSPARENCIA*/
+	
+}
+
+#titulo {
+			/*border: 1px solid black;*/
+			width: 30%; 
+			height:120px;
+			float: left;
+			margin-top: 15px;
+			padding-top: 15px;
+			padding-left: 10px;
+			color: white;
+
+}
+a {
+	color: white;
+	padding-right: 35px;
+	font-size: 20px;
+	margin-left: 15px;
+	line-height: 30px;
+	text-decoration: none; /*SIRVE PARA ELIMINAR EL SUBRAYADO DE LOS LINKs*/
+}	
+a:hover { /*PARA PODER AGREGAR ESTA PROPIEDAD DEBO SACAR EL TEXT-DECORATION ANTES*/
+color: fuchsia;
+text-decoration: underline; /*ME APARECE EL SUBRAYADO CUANDO PASO EL MOUSE POR ENCIMA*/
+}
+
+#links {
+			/*border: 1px solid black;*/
+			width: 70%;
+			height: 120px;
+			float: right;
+			/*margin: auto;*/
+			margin-top: 10px;
+			margin-bottom: 20px;
+			padding-top: 30px;
+			display: flex;
+			padding-right: 10px;
+			justify-content: flex-end;
+			/*align-items: flex-end;*/
+			/*justify-content: space-between;*/
+			font-size: 2em;
+			/*margin: auto;*/
+
+	}
+h1 {
+	font-size: 35px;
+	color: pink;
+	text-decoration: underline; /*ESTA ETIQUETA SIRVE PARA SUBRAYAR*/
+}
+main {
+
+	justify-content: space-between;
+	
+}
+
+.boton1 {
+	float: left;
+	background-color: green;
+	color: white;
+	width: 30%;
+	height: 35px;
+	/*justify-content: space-around;*/
+	margin-left: 200px;
+	margin-top: 150px; 
+	font-size: 1em;
+
+}
+.boton2 {
+	float: right;
+	background-color: green;
+	color: white;
+	width: 30%;
+	height: 35px;
+	/*justify-content: space-around;*/
+	margin-right: 200px;
+	margin-top: 150px;
+	font-size: 1em;
+}
+.boton3 {
+	float: right;
+	width: 10%;
+	height: 50px;
+	margin-right: 330px;
+	margin-top: 20px;
+	/*margin-bottom: 60px;*/
+	font-size: 20px;
+	/*background-color: ;
+*/
+/*border: 3em;*/
+}
+h2 {
+font-size: 4em;
+/*justify-content: center;*/
+/*text-align: justify;*/	
+text-align: center; /*ME LO CENTRA*/
+margin-top: 150px;
+
+}
+.botonizquierdo {
+	float: left;
+	font-size: 3em; 
+	/*margin-top: 50px;*/
+	/*margin-left: 400px;*/
+	margin-left: auto;
+	text-align: left;
+}
+.botonderecho {
+	float: right;
+	font-size: 3em; 
+	/*margin-top: 50px;*/
+	/*margin-right: 400px;*/
+	margin-right: auto;
+	text-align: right;
+}
+
